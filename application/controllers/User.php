@@ -9,6 +9,8 @@ class User extends CI_Controller
         cek_login();
     }
 
+
+
     public function index()
     {
         $data['judul'] = 'Profil Saya';
@@ -76,7 +78,8 @@ class User extends CI_Controller
 
                     $gambar_baru = $this->upload->data('file_name');
                     $this->db->set('image', $gambar_baru);
-                } else { }
+                } else {
+                }
             }
 
             $this->db->set('nama', $nama);
@@ -87,6 +90,4 @@ class User extends CI_Controller
             redirect('user');
         }
     }
-
-
 }

@@ -36,7 +36,7 @@
         <style media="screen">
 
         </style>
-        <a class="nav-link pb-0" href="<?= base_url('buku/kategori'); ?>">
+        <a class="nav-link pb-0" href="<?= base_url('buku/index'); ?>">
             <i class="fas fa-book"></i>
             <span>Data Buku</span></a>
     </li>

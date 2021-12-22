@@ -155,8 +155,6 @@ class Buku extends CI_Controller
                 'pengarang' => $this->input->post('pengarang', true),
                 'penerbit' => $this->input->post('penerbit', true),
                 'tahun_terbit' => $this->input->post('tahun', true),
-
-
                 'isbn' => $this->input->post('isbn', true),
                 'stok' => $this->input->post('stok', true),
                 'image' => $gambar
